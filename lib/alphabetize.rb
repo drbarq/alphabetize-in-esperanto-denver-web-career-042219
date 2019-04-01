@@ -8,7 +8,7 @@ def alphabetize(arr)
     #  ESPERANTO_ALPHABET(character)
     binding.pry
 
-end 
+ 
   end
   end
 
