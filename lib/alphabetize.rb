@@ -1,10 +1,12 @@
 require 'pry'
 
+ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+
 def alphabetize(arr)
 
-  #ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz".chars
 
-  arr.sort_by(&:ESPERANTO_ALPHABET)
+
+#  arr.sort_by(&:ESPERANTO_ALPHABET)
 
 
 
