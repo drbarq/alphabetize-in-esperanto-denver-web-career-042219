@@ -2,7 +2,9 @@ require 'pry'
 
 def alphabetize(arr)
 
-  arr.sort_by do |word|
+  arr.sort_by(&:ESPERANTO_ALPHABET)
+
+
 
 
   binding.pry
