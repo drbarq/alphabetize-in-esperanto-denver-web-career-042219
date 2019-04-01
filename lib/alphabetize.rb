@@ -4,7 +4,7 @@ require 'pry'
 
 def alphabetize(arr)
 
-ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz".chars
+ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
 
   arr.sort_by do |sentence|
     sentence.chars.collect do |letter|
