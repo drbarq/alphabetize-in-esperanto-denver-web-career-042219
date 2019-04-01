@@ -10,7 +10,7 @@ ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
     sentence.chars.collect do |letter|
       binding.pry
       ESPERANTO_ALPHABET.index(character)
-    
+
 
 
   end
