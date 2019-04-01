@@ -7,9 +7,9 @@ def alphabetize(arr)
 
   binding.pry
 
-end 
+end
 
 end
 
 
-#ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+#ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz".chars
