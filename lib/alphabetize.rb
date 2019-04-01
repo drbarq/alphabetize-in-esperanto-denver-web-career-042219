@@ -9,9 +9,9 @@ esperanto_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
 
   arr.sort_by do |sentence|
     sentence.chars.collect do |letter|
-      binding.pry
+  #    binding.pry
       esperanto_ALPHABET.index(letter)
-    binding.pry 
+  #  binding.pry 
 
   end
   end
